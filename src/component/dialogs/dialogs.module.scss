@@ -1,0 +1,40 @@
+.dialogs {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.dialog {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.dialog__avatar {
+  margin-right: 20px;
+  width: 100px;
+}
+.active {
+  color: red;
+}
+.dialogs__items {
+
+}
+.messages {
+  margin-top: 20px;
+}
+.message {
+  padding: 10px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+  }
+}

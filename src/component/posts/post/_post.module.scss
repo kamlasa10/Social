@@ -1,0 +1,19 @@
+  .post__desc{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    position: relative;
+  }
+  .post {
+    margin-bottom: 20px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 80px minmax(100px, 250);
+    position: relative;
+  }
+  .post img {
+    width: 70px;
+  }
+
+  

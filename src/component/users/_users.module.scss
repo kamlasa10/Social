@@ -1,0 +1,66 @@
+.user_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.users {
+  margin-top: 50px;
+
+  span {
+    cursor: pointer;
+  }
+}
+.users__item {
+  display: flex;
+  width: 600px;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.users__avatar {
+  width: 100px;
+  margin-bottom: 15px;
+
+  img {
+    width: 100px;
+  }
+}
+.users__btn {
+  color: #fff;
+  background-color: green;
+  border: none;
+  outline: none;
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.users__about {
+  display: flex;
+
+  div {
+    margin-right: 120px;
+    margin-bottom: 10px;
+  }
+}
+.users__status {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.users__content {
+  margin-left: 30px;
+}
+.current {
+  font-weight: bold;
+}
+.pagination {
+  margin-bottom: 20px;
+}
+.pagination span {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #cccccc;
+  margin-right: 5px;
+}

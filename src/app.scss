@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+.wrapper {
+  max-width: 1270px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: "h h"
+  "s c";
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: minmax(100px, auto) 1fr;
+  grid-gap: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content {
+  padding: 20px;
+  grid-area: c;
+  background-color: antiquewhite;
+}
+.content {
+  grid-area: c;
+}
